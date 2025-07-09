@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Novotný</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito Sans', sans-serif;
+            background: #fff;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 12vh;
+        }
+        .photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .intro {
+            text-align: center;
+            max-width: 360px;
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+        .buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .buttons a {
+            padding: 10px 20px;
+            border: 1px solid #000;
+            border-radius: 30px;
+            text-decoration: none;
+            color: #000;
+            font-size: 0.95rem;
+        }
+        footer {
+            font-size: 0.75rem;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+        .email {
+            font-size: 0.95rem;
+            color: #888;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="avatar.jpg" alt="Viktor Novotný" class="photo">
+        <h1>Viktor Novotný</h1>
+        <div class="intro">
+            Tvořím v prostoru i v ploše. Design, který pomáhá. Náladě, prodejům, přírodě nebo použitelnosti.
+        </div>
+        <div class="buttons">
+            <a href="https://www.behance.net/viktornovotny" target="_blank">Portfolio</a>
+            <a href="https://www.instagram.com/viktor.novotny.dyzajn/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/viktornovotny/" target="_blank">LinkedIn</a>
+            <a href="https://navolnenoze.cz/prezentace/viktor-novotny/" target="_blank">Na volné noze</a>
+        </div>
+    </div>
+    <footer>
+        <div class="email"><a href="mailto:vn@viktornovotny.cz" style="color:#000; font-weight:bold; text-decoration:none;">vn@viktornovotny.cz</a></div>
+        Viktor Novotný<br>
+        zapsán do živnostenského rejstříku<br>
+        IČ: 09471995, neplátce DPH
+    </footer>
+</body>
+</html>
